@@ -12,28 +12,28 @@ Repositório com **dados, código e produtos analíticos** do TCC:
 
 ## 📦 Estrutura do repositório
 
-├── data/ # Bases de entrada (IA e OMS)
-│ ├── df_claude.xlsx
-│ ├── df_copilot.xlsx
-│ ├── df_deepseek.xlsx
-│ ├── df_gemini.xlsx
-│ ├── df_gpt.xlsx
-│ ├── df_gpt_escholar.xlsx
-│ ├── df_gpt_vision.xlsx
-│ ├── df_meta_llama.xlsx
-│ ├── df_perplexity.xlsx
-│ ├── df_reka.xlsx
-│ └── df_oms.xlsx
-│
-├── code/
-│ └── TCC_MBA_DSA_USP_MALARIA.py # Script principal (Python)
-│
-├── figures/ # Imagens estáticas exportadas (PNG)
-│ └── (geradas pelo script)
-│
-├── results/ # Saídas tabulares/HTML (MCA 3D etc.)
-│ └── (geradas pelo script)
-
+├── data/ # Bases de entrada (IA e OMS)  
+│ ├── df_claude.xlsx  
+│ ├── df_copilot.xlsx  
+│ ├── df_deepseek.xlsx  
+│ ├── df_gemini.xlsx  
+│ ├── df_gpt.xlsx  
+│ ├── df_gpt_escholar.xlsx  
+│ ├── df_gpt_vision.xlsx  
+│ ├── df_meta_llama.xlsx  
+│ ├── df_perplexity.xlsx  
+│ ├── df_reka.xlsx  
+│ └── df_oms.xlsx  
+│  
+├── code/  
+│ └── TCC_MBA_DSA_USP_MALARIA.py # Script principal (Python)  
+│  
+├── figures/ # Imagens estáticas exportadas (PNG)  
+│ └── (geradas pelo script)  
+│  
+├── results/ # Saídas tabulares/HTML (MCA 3D etc.)  
+│ └── (geradas pelo script)  
+  
 ### Instalação
 
 Principais bibliotecas:
@@ -42,7 +42,9 @@ Principais bibliotecas:
 - matplotlib, seaborn, plotly, prince
 - (opcional para exportar PNG de gráficos plotly) kaleido
 
-▶️ Como executar
+---
+
+## ▶️ Como executar
 
 1. Certifique-se de que as bases estão em `data/`.
 2. Execute o script principal:
@@ -52,22 +54,26 @@ Principais bibliotecas:
 - Tabelas (XLSX/CSV) em `results/`
 - Gráfico interativo MCA 3D em `results/16_grafico_mca_3d.html`
 
-🧪 Metodologia
+---
 
-Legibilidade: Flesch Reading Ease e Flesch–Kincaid Grade Level
-Similaridade textual: Similaridade do Cosseno, Distância de Levenshtein, Coeficiente de Jaccard
-Clusterização: K-means com padronização por Z-score; seleção de k via Elbow e Silhueta
-MCA (Análise de Correspondência Múltipla): associação entre IA, tópicos e clusters
-Validação: ANOVA (diferenças de médias) e Qui-quadrado (associação entre categorias)
+## 🧪 Metodologia
 
-📊 Produtos gerados
+- **Legibilidade**: Flesch Reading Ease e Flesch–Kincaid Grade Level  
+- **Similaridade textual**: Similaridade do Cosseno, Distância de Levenshtein, Coeficiente de Jaccard  
+- **Clusterização**: K-means com padronização por Z-score; seleção de k via Elbow e Silhueta  
+- **MCA (Análise de Correspondência Múltipla)**: associação entre IA, tópicos e clusters  
+- **Validação**: ANOVA (diferenças de médias) e Qui-quadrado (associação entre categorias)  
 
-Rankings por IA e por tópico
-Matriz de correlação (Pearson)
-Determinação do número de clusters (Elbow / Silhueta)
-Boxplots e gráficos comparativos
-Mapa perceptual – MCA 2D e 3D
-Tabelas agregadas (results/df_agg_ranked.xlsx, results/df_agg_topic_cluster.xlsx)
+---
+
+## 📊 Produtos gerados
+
+- Rankings por IA e por tópico  
+- Matriz de correlação (Pearson)  
+- Determinação do número de clusters (Elbow / Silhueta)  
+- Boxplots e gráficos comparativos  
+- Mapa perceptual – MCA 2D e 3D  
+- Tabelas agregadas (`results/df_agg_ranked.xlsx`, `results/df_agg_topic_cluster.xlsx`) 
 
 📑 Citação sugerida
 
