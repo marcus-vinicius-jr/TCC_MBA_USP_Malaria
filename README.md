@@ -75,7 +75,9 @@ Principais bibliotecas:
 - Mapa perceptual – MCA 2D e 3D  
 - Tabelas agregadas (`results/df_agg_ranked.xlsx`, `results/df_agg_topic_cluster.xlsx`) 
 
-📑 Citação sugerida
+---
+
+##📑 Citação sugerida
 
 FREIRE JUNIOR, Marcus Vinicius. Avaliação de Modelos de Inteligência Artificial Generativa em
 Comparação com Informações da OMS sobre Malária. Trabalho de Conclusão de Curso (MBA em Data
