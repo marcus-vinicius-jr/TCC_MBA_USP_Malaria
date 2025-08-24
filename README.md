@@ -26,15 +26,20 @@ Repositório com **dados, código e produtos analíticos** do TCC:
 │ └── df_oms.xlsx  
 │  
 ├── code/  
-│ └── TCC_MBA_DSA_USP_MALARIA.py # Script principal (Python)  
+│ ├── TCC_MBA_DSA_USP_MALARIA.py # Script principal (Python)  
+│ └── requirements.txt  
 │  
 ├── figures/ # Imagens estáticas exportadas (PNG)  
 │ └── (geradas pelo script)  
 │  
 ├── results/ # Saídas tabulares/HTML (MCA 3D etc.)  
 │ └── (geradas pelo script)  
-  
-### Instalação
+
+## ⚙️ Ambiente e dependências
+
+### Instalação 
+```bash
+pip install -r requirements.txt
 
 Principais bibliotecas:
 - pandas, numpy, scikit-learn, scipy, statsmodels, pingouin
