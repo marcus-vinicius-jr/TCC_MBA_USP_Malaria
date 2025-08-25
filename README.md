@@ -50,7 +50,7 @@ Principais bibliotecas:
 ---
 
 ## ▶️ Como executar
-
+```bash
 1. Certifique-se de que as bases estão em `data/`.
 2. Execute o script principal:
  python code/TCC_MBA_DSA_USP_MALARIA.py
@@ -62,7 +62,7 @@ Principais bibliotecas:
 ---
 
 ## 🧪 Metodologia
-
+```bash
 - **Legibilidade**: Flesch Reading Ease e Flesch–Kincaid Grade Level  
 - **Similaridade textual**: Similaridade do Cosseno, Distância de Levenshtein, Coeficiente de Jaccard  
 - **Clusterização**: K-means com padronização por Z-score; seleção de k via Elbow e Silhueta  
@@ -72,7 +72,7 @@ Principais bibliotecas:
 ---
 
 ## 📊 Produtos gerados
-
+```bash
 - Rankings por IA e por tópico  
 - Matriz de correlação (Pearson)  
 - Determinação do número de clusters (Elbow / Silhueta)  
@@ -83,7 +83,7 @@ Principais bibliotecas:
 ---
 
 ## 📑 Citação sugerida
-
+```bash
 FREIRE JUNIOR, Marcus Vinicius. Avaliação de Modelos de Inteligência Artificial Generativa em
 Comparação com Informações da OMS sobre Malária. Trabalho de Conclusão de Curso (MBA em Data
 Science and Analytics) – Universidade de São Paulo, Escola Superior de Agricultura “Luiz de Queiroz”,
