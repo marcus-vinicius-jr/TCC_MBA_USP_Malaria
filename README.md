@@ -37,7 +37,7 @@ Repositório com **dados, código e produtos analíticos** do TCC:
 
 ## ⚙️ Ambiente e dependências
 
-### Instalação 
+## Instalação 
 ```bash
 pip install -r requirements.txt
 
