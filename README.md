@@ -2,7 +2,7 @@
 ## Avaliação de Modelos Generativos em Saúde: estudo de caso sobre Malária
 
 Repositório com **dados, código e produtos analíticos** do TCC:
-**“Avaliação de Modelos de Inteligência Artificial Generativa em Comparação com Informações da OMS sobre Malária”**.
+**“Avaliação da Segurança das Informações Fornecidas pelas Redes Neurais Generativas Aplicadas à Malária”**.
 
 - Autor: **Marcus Vinicius Freire Junior**  
 - Curso: **MBA em Data Science and Analytics – USP/Esalq**  
