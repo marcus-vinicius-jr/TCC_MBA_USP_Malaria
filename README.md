@@ -35,7 +35,7 @@ Repositório com **dados, código e produtos analíticos** do TCC:
 ├── results/ # Saídas tabulares/HTML (MCA 3D etc.)  
 │ └── (geradas pelo script)  
 
-## ⚙️ Ambiente e dependências
+## Ambiente e dependências
 
 ## Instalação 
 ```bash
