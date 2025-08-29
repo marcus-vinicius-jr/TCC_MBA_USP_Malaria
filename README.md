@@ -10,7 +10,7 @@ Repositório com **dados, código e produtos analíticos** do TCC:
 
 ---
 
-## 📦 Estrutura do repositório
+## Estrutura do repositório
 
 ├── data/ # Bases de entrada (IA e OMS)  
 │ ├── df_claude.xlsx  
@@ -49,7 +49,7 @@ Principais bibliotecas:
 
 ---
 
-## ▶️ Como executar
+## Como executar
 
 1. Certifique-se de que as bases estão em `data/`.
 2. Execute o script principal:
@@ -61,7 +61,7 @@ Principais bibliotecas:
 
 ---
 
-## 🧪 Metodologia
+## Metodologia
 
 - **Legibilidade**: Flesch Reading Ease e Flesch–Kincaid Grade Level  
 - **Similaridade textual**: Similaridade do Cosseno, Distância de Levenshtein, Coeficiente de Jaccard  
@@ -71,7 +71,7 @@ Principais bibliotecas:
 
 ---
 
-## 📊 Produtos gerados
+## Produtos gerados
 
 - Rankings por IA e por tópico  
 - Matriz de correlação (Pearson)  
@@ -82,7 +82,7 @@ Principais bibliotecas:
 
 ---
 
-## 📑 Citação sugerida
+## Citação sugerida
 ```bash
 FREIRE JUNIOR, Marcus Vinicius. Avaliação de Modelos de Inteligência Artificial Generativa em
 Comparação com Informações da OMS sobre Malária. Trabalho de Conclusão de Curso (MBA em Data
